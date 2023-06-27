@@ -19,38 +19,38 @@ void setup()
 
 void loop()
 {
-  analogWrite(D7,255);
-  analogWrite(D6,0);
-  analogWrite(D5,0);
+  analogWrite(D7, 255);
+  analogWrite(D6, 0);
+  analogWrite(D5, 0);
   delay(1000);
-  analogWrite(D7,0);
-  analogWrite(D6,255);
-  analogWrite(D5,0);
+  analogWrite(D7, 0);
+  analogWrite(D6, 255);
+  analogWrite(D5, 0);
   delay(1000);
-  analogWrite(D7,0);
-  analogWrite(D6,0);
-  analogWrite(D5,255);
+  analogWrite(D7, 0);
+  analogWrite(D6, 0);
+  analogWrite(D5, 255);
   delay(1000);
-  analogWrite(D7,255);
-  analogWrite(D6,165);
-  analogWrite(D5,0);
+  analogWrite(D7, 255);
+  analogWrite(D6, 165);
+  analogWrite(D5, 0);
   delay(1000);
-  analogWrite(D7,255);
-  analogWrite(D6,255);
-  analogWrite(D5,0);
+  analogWrite(D7, 255);
+  analogWrite(D6, 255);
+  analogWrite(D5, 0);
   delay(1000);
-  analogWrite(D7,160);
-  analogWrite(D6,32);
-  analogWrite(D5,240);
+  analogWrite(D7, 160);
+  analogWrite(D6, 32);
+  analogWrite(D5, 240);
   delay(1000);
-  analogWrite(D7,0);
-  analogWrite(D6,100);
-  analogWrite(D5,100);
+  analogWrite(D7, 0);
+  analogWrite(D6, 100);
+  analogWrite(D5, 100);
 }
 
 // pinMode(A0, OUTPUT);
 // analogWrite(pin,255); //100% duty cycle
 // analogWrite(pin,127); //50% duty cycle
 // analogWrite(pin,0); //0% duty cycle
-//pinMode(D6, OUTPUT); 
-//analogWrite(D6, 128);
+// pinMode(D6, OUTPUT);
+// analogWrite(D6, 128);

@@ -209,108 +209,108 @@ void setup()
 void loop()
 {
    b40d8:	b508      	push	{r3, lr}
-  analogWrite(D7,255);
+  analogWrite(D7, 255);
    b40da:	21ff      	movs	r1, #255	; 0xff
    b40dc:	2007      	movs	r0, #7
    b40de:	f000 fe7a 	bl	b4dd6 <_Z11analogWritetm>
-  analogWrite(D6,0);
+  analogWrite(D6, 0);
    b40e2:	2100      	movs	r1, #0
    b40e4:	2006      	movs	r0, #6
    b40e6:	f000 fe76 	bl	b4dd6 <_Z11analogWritetm>
-  analogWrite(D5,0);
+  analogWrite(D5, 0);
    b40ea:	2100      	movs	r1, #0
    b40ec:	2005      	movs	r0, #5
    b40ee:	f000 fe72 	bl	b4dd6 <_Z11analogWritetm>
   delay(1000);
    b40f2:	f44f 707a 	mov.w	r0, #1000	; 0x3e8
    b40f6:	f000 fa37 	bl	b4568 <delay>
-  analogWrite(D7,0);
+  analogWrite(D7, 0);
    b40fa:	2100      	movs	r1, #0
    b40fc:	2007      	movs	r0, #7
    b40fe:	f000 fe6a 	bl	b4dd6 <_Z11analogWritetm>
-  analogWrite(D6,255);
+  analogWrite(D6, 255);
    b4102:	21ff      	movs	r1, #255	; 0xff
    b4104:	2006      	movs	r0, #6
    b4106:	f000 fe66 	bl	b4dd6 <_Z11analogWritetm>
-  analogWrite(D5,0);
+  analogWrite(D5, 0);
    b410a:	2100      	movs	r1, #0
    b410c:	2005      	movs	r0, #5
    b410e:	f000 fe62 	bl	b4dd6 <_Z11analogWritetm>
   delay(1000);
    b4112:	f44f 707a 	mov.w	r0, #1000	; 0x3e8
    b4116:	f000 fa27 	bl	b4568 <delay>
-  analogWrite(D7,0);
+  analogWrite(D7, 0);
    b411a:	2100      	movs	r1, #0
    b411c:	2007      	movs	r0, #7
    b411e:	f000 fe5a 	bl	b4dd6 <_Z11analogWritetm>
-  analogWrite(D6,0);
+  analogWrite(D6, 0);
    b4122:	2100      	movs	r1, #0
    b4124:	2006      	movs	r0, #6
    b4126:	f000 fe56 	bl	b4dd6 <_Z11analogWritetm>
-  analogWrite(D5,255);
+  analogWrite(D5, 255);
    b412a:	21ff      	movs	r1, #255	; 0xff
    b412c:	2005      	movs	r0, #5
    b412e:	f000 fe52 	bl	b4dd6 <_Z11analogWritetm>
   delay(1000);
    b4132:	f44f 707a 	mov.w	r0, #1000	; 0x3e8
    b4136:	f000 fa17 	bl	b4568 <delay>
-  analogWrite(D7,255);
+  analogWrite(D7, 255);
    b413a:	21ff      	movs	r1, #255	; 0xff
    b413c:	2007      	movs	r0, #7
    b413e:	f000 fe4a 	bl	b4dd6 <_Z11analogWritetm>
-  analogWrite(D6,165);
+  analogWrite(D6, 165);
    b4142:	21a5      	movs	r1, #165	; 0xa5
    b4144:	2006      	movs	r0, #6
    b4146:	f000 fe46 	bl	b4dd6 <_Z11analogWritetm>
-  analogWrite(D5,0);
+  analogWrite(D5, 0);
    b414a:	2100      	movs	r1, #0
    b414c:	2005      	movs	r0, #5
    b414e:	f000 fe42 	bl	b4dd6 <_Z11analogWritetm>
   delay(1000);
    b4152:	f44f 707a 	mov.w	r0, #1000	; 0x3e8
    b4156:	f000 fa07 	bl	b4568 <delay>
-  analogWrite(D7,255);
+  analogWrite(D7, 255);
    b415a:	21ff      	movs	r1, #255	; 0xff
    b415c:	2007      	movs	r0, #7
    b415e:	f000 fe3a 	bl	b4dd6 <_Z11analogWritetm>
-  analogWrite(D6,255);
+  analogWrite(D6, 255);
    b4162:	21ff      	movs	r1, #255	; 0xff
    b4164:	2006      	movs	r0, #6
    b4166:	f000 fe36 	bl	b4dd6 <_Z11analogWritetm>
-  analogWrite(D5,0);
+  analogWrite(D5, 0);
    b416a:	2100      	movs	r1, #0
    b416c:	2005      	movs	r0, #5
    b416e:	f000 fe32 	bl	b4dd6 <_Z11analogWritetm>
   delay(1000);
    b4172:	f44f 707a 	mov.w	r0, #1000	; 0x3e8
    b4176:	f000 f9f7 	bl	b4568 <delay>
-  analogWrite(D7,160);
+  analogWrite(D7, 160);
    b417a:	21a0      	movs	r1, #160	; 0xa0
    b417c:	2007      	movs	r0, #7
    b417e:	f000 fe2a 	bl	b4dd6 <_Z11analogWritetm>
-  analogWrite(D6,32);
+  analogWrite(D6, 32);
    b4182:	2120      	movs	r1, #32
    b4184:	2006      	movs	r0, #6
    b4186:	f000 fe26 	bl	b4dd6 <_Z11analogWritetm>
-  analogWrite(D5,240);
+  analogWrite(D5, 240);
    b418a:	21f0      	movs	r1, #240	; 0xf0
    b418c:	2005      	movs	r0, #5
    b418e:	f000 fe22 	bl	b4dd6 <_Z11analogWritetm>
   delay(1000);
    b4192:	f44f 707a 	mov.w	r0, #1000	; 0x3e8
    b4196:	f000 f9e7 	bl	b4568 <delay>
-  analogWrite(D7,0);
+  analogWrite(D7, 0);
    b419a:	2100      	movs	r1, #0
    b419c:	2007      	movs	r0, #7
    b419e:	f000 fe1a 	bl	b4dd6 <_Z11analogWritetm>
-  analogWrite(D6,100);
+  analogWrite(D6, 100);
    b41a2:	2164      	movs	r1, #100	; 0x64
    b41a4:	2006      	movs	r0, #6
    b41a6:	f000 fe16 	bl	b4dd6 <_Z11analogWritetm>
-  analogWrite(D5,100);
+  analogWrite(D5, 100);
 }
    b41aa:	e8bd 4008 	ldmia.w	sp!, {r3, lr}
-  analogWrite(D5,100);
+  analogWrite(D5, 100);
    b41ae:	2164      	movs	r1, #100	; 0x64
    b41b0:	2005      	movs	r0, #5
    b41b2:	f000 be10 	b.w	b4dd6 <_Z11analogWritetm>
