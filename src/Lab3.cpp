@@ -19,33 +19,34 @@ void setup()
 
 void loop()
 {
+  analogWrite(D7, 0);
+  analogWrite(D6, 255);
+  analogWrite(D5, 255);
+  delay(1000);
   analogWrite(D7, 255);
   analogWrite(D6, 0);
+  analogWrite(D5, 255);
+  delay(1000);
+  analogWrite(D7, 255);
+  analogWrite(D6, 255);
   analogWrite(D5, 0);
   delay(1000);
   analogWrite(D7, 0);
-  analogWrite(D6, 255);
-  analogWrite(D5, 0);
+  analogWrite(D6, 90);
+  analogWrite(D5, 255);
   delay(1000);
   analogWrite(D7, 0);
   analogWrite(D6, 0);
   analogWrite(D5, 255);
   delay(1000);
-  analogWrite(D7, 255);
-  analogWrite(D6, 165);
-  analogWrite(D5, 0);
+  analogWrite(D7, 95);
+  analogWrite(D6, 223);
+  analogWrite(D5, 15);
   delay(1000);
   analogWrite(D7, 255);
-  analogWrite(D6, 255);
-  analogWrite(D5, 0);
+  analogWrite(D6, 155);
+  analogWrite(D5, 155);
   delay(1000);
-  analogWrite(D7, 160);
-  analogWrite(D6, 32);
-  analogWrite(D5, 240);
-  delay(1000);
-  analogWrite(D7, 0);
-  analogWrite(D6, 100);
-  analogWrite(D5, 100);
 }
 
 // pinMode(A0, OUTPUT);
