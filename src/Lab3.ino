@@ -11,7 +11,8 @@ void setup()
 void loop()
 {
   analogWrite(D7, 255);
-  analogWrite(D6, 0);
+
+    analogWrite(D6, 0);
   analogWrite(D5, 0);
   delay(1000);
   analogWrite(D7, 0);
